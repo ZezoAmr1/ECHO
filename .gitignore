@@ -1,0 +1,34 @@
+# Private training data
+*.csv
+
+# Training scripts
+train_*.py
+extract_*.py
+
+# Sample audio recordings (private)
+Samples/
+
+# Images
+*.png
+*.webp
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Environment
+.env
+venv/
+*.egg-info/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Whisper model cache
+*.pt
