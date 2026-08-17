@@ -6,8 +6,8 @@ pandas>=2.0.0
 numpy>=1.24.0
 librosa>=0.10.0
 pydub>=0.25.1
-spacy>=3.7.0
+spacy>=3.8.0
 jieba>=0.42.1
 lexicalrichness>=0.5.1
-https://huggingface.co/spacy/en_core_web_sm/resolve/main/en_core_web_sm-any-py3-none-any.whl
-https://huggingface.co/spacy/zh_core_web_sm/resolve/main/zh_core_web_sm-any-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
+https://github.com/explosion/spacy-models/releases/download/zh_core_web_sm-3.8.0/zh_core_web_sm-3.8.0-py3-none-any.whl
