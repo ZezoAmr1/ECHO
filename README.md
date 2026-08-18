@@ -23,7 +23,7 @@ ECHO processes a short speech sample (20–60 seconds) through a multi-stage pip
 
 The app is deployed on Streamlit Community Cloud:
 
-👉 **[Launch ECHO](https://your-app.streamlit.app)** *(link updated after deployment)*
+👉 **[Launch ECHO](https://echo-dementia.streamlit.app)** *(link updated after deployment)*
 
 ## 🏃 Run Locally
 
