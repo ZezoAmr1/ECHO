@@ -1,5 +1,5 @@
-# Core app - versions compatible with Python 3.14 on Streamlit Cloud
-streamlit==1.51.0
+# Core app - all versions verified to have Python 3.14 wheels
+streamlit==1.45.0
 joblib==1.5.2
 opensmile==2.6.0
 openai-whisper==20250625
@@ -11,6 +11,9 @@ audioop-lts
 spacy==3.8.11
 jieba==0.42.1
 lexicalrichness==0.5.1
+
+# Explicitly pin pyarrow to avoid building from source (21.0.0 has no cp314 wheel)
+pyarrow>=18.0.0,<21.0.0
 
 # Critical for model accuracy - pinned to match training environment
 scikit-learn==1.7.2
