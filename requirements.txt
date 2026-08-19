@@ -1,28 +1,29 @@
-# Core app
+# Core app - versions compatible with Python 3.14 on Streamlit Cloud
 streamlit==1.51.0
 joblib==1.5.2
 opensmile==2.6.0
 openai-whisper==20250625
 pandas==2.3.3
-numpy==2.1.2
+numpy>=2.2.0,<3.0.0
 librosa==0.11.0
 pydub==0.25.1
+audioop-lts
 spacy==3.8.11
 jieba==0.42.1
 lexicalrichness==0.5.1
 
-# Critical for model accuracy - must match training environment
+# Critical for model accuracy - pinned to match training environment
 scikit-learn==1.7.2
 scipy==1.16.2
 thinc==8.3.10
 
-# Whisper dependencies - pinned for consistent transcription
-torch==2.5.1
+# Whisper/torch - latest versions with Python 3.14 wheels
+torch>=2.6.0
 tiktoken==0.12.0
-numba==0.62.1
+numba>=0.60.0
 tqdm==4.67.1
 more-itertools==10.8.0
 
-# spaCy models - exact versions
+# spaCy models
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl
 https://github.com/explosion/spacy-models/releases/download/zh_core_web_sm-3.8.0/zh_core_web_sm-3.8.0-py3-none-any.whl
